@@ -25,10 +25,4 @@ for i = 1:n-1
 endfor;
 
 Y = inv(L)*B;
-X = inv(U)*Y;
-A
-X
-
-A*X - B
-save "daaaaa.dat" A
-save "daaaaa.dat" X
+X = inv(U)*Y

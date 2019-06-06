@@ -1,7 +1,7 @@
 format short g;
 
-load("dataa.dat");
-load("datab.dat");
+load("a.dat");
+load("b.dat");
 
 U = eye(columns(A));
 L = zeros(columns(A));
